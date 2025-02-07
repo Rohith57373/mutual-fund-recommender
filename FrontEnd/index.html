@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+    <!-- Botpress Chat scripts -->
+    <script
+      id="botpress-inject-script"
+      src="https://cdn.botpress.cloud/webchat/v1/inject.js"
+    ></script>
+    <script
+      id="botpress-config-script"
+      src="https://mediafiles.botpress.cloud/ce4f3e28-9ef1-452d-994c-ea7d2d1fa25b/webchat/config.js"
+      defer
+    ></script>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- Main React script -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
